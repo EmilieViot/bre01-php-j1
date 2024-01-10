@@ -1,0 +1,55 @@
+<?php
+
+	$number1 = 42;
+	$number2 = 33;
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Exercice 2 echo</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<?php 
+			if($number1 % 2 === 0)
+		    {
+	    ?>
+		    <p class="red">
+		    	<?php echo $number1; ?>
+		    </p>
+	    <?php 
+	    	}
+	    	
+	    	else 
+	    {
+	    ?>
+	    <p class="blue">
+	    	<?php echo $number1; ?>
+	    </p>
+	    <?php
+		    }
+		     
+		    if($number2 % 2 === 0)
+		    {
+	    ?>
+		    <p class="red">
+		    	<?php echo $number2; ?>
+		    </p>
+	    	<?php
+		    }
+	     
+	    else 
+		    {
+		    ?>
+		    <p class="blue">
+		    	<?php echo $number2; ?>
+		    </p>
+		    <?php
+		    }
+		    ?>
+	    
+	</body>
+</html>
