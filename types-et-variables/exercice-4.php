@@ -2,7 +2,7 @@
 
 $data = 42;
 $float = (float) $data;
-$str = strval($float);
+$str = (string)$float;
 
 print_r ($data);
 print_r ($float);

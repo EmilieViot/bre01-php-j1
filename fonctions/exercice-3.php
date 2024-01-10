@@ -3,13 +3,10 @@
 function isOdd(int $nb) : bool
 {
     if ($nb %2 === 0) 
-    {
+    
         return true;
-    }
-    else if ($nb %2 !== 0)
-    {
-        return false;
-    }
+    
+    return false;
 };
 
 var_dump(isOdd(12));
